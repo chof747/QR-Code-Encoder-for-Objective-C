@@ -78,8 +78,25 @@
     return matrix;
 }
 
++ (NSString*)hexFromStr:(const char*)str
+{
+  NSUInteger len = strlen(str);
+  NSMutableString* hex = [NSMutableString string];
+  for(int i = 0; i < len; ++i)
+  {
+    [hex appendFormat:@"%02X", str[i] ];
+    if (str[i] == 10)
+    {
+      [hex appendString:@" "];
+    }
+  }
+  return hex;
+}
+
+
 + (DataMatrix*)encodeWithECLevel:(int)ecLevel version:(int)version string:(NSString *)string {
     const char* cstring = [string cStringUsingEncoding:NSUTF8StringEncoding];
+    //NSLog(@"x:%@", [QREncoder hexFromStr:cstring]);
     DataMatrix* matrix = [QREncoder encodeCStringWithECLevel:ecLevel version:version cstring:cstring];
     return matrix;
 }

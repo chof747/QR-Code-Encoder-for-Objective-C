@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>ECF886C4-DD98-404F-80C6-C8F2EDDBFFEE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>QRCodeEncoderObjectiveCAtGithub</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F94D734B1F1D96F29049E3FED3F8062855B63148</key>
+		<string>https://github.com/chof747/QR-Code-Encoder-for-Objective-C.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>QRCodeEncoderObjectiveCAtGithub.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F94D734B1F1D96F29049E3FED3F8062855B63148</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/chof747/QR-Code-Encoder-for-Objective-C.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F94D734B1F1D96F29049E3FED3F8062855B63148</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F94D734B1F1D96F29049E3FED3F8062855B63148</string>
+			<key>IDESourceControlWCCName</key>
+			<string>QR-Code-Encoder-for-Objective-C</string>
+		</dict>
+	</array>
+</dict>
+</plist>

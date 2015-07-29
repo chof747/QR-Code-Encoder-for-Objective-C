@@ -31,7 +31,7 @@
     
     //put the image into the view
     UIImageView* qrcodeImageView = [[UIImageView alloc] initWithImage:qrcodeImage];
-    CGRect parentFrame = self.view.frame;
+    CGRect parentFrame = self.view.frame; 
     CGRect tabBarFrame = self.tabBarController.tabBar.frame;
     
     //center the image

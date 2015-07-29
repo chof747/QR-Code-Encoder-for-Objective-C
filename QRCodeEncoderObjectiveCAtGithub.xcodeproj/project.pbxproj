@@ -322,6 +322,7 @@
 				INFOPLIST_FILE = "QRCodeEncoderDemo/QRCodeEncoderDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"VALID_ARCHS[sdk=*]" = "arm64 armv7 armv7s x86_64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -342,6 +343,7 @@
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
+				"VALID_ARCHS[sdk=*]" = "arm64 armv7 armv7s x86_64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -382,11 +384,12 @@
 			buildSettings = {
 				ALTERNATE_OWNER = "";
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				DSTROOT = /tmp/QRCodeEncoderObjectiveCAtGithub.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QRCodeEncoderObjectiveCAtGithub/QRCodeEncoderObjectiveCAtGithub-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = "";
 				INSTALL_OWNER = "";
 				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
 				OTHER_LDFLAGS = "-ObjC";
@@ -402,11 +405,12 @@
 			buildSettings = {
 				ALTERNATE_OWNER = "";
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				DSTROOT = /tmp/QRCodeEncoderObjectiveCAtGithub.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QRCodeEncoderObjectiveCAtGithub/QRCodeEncoderObjectiveCAtGithub-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = "";
 				INSTALL_OWNER = "";
 				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
 				OTHER_LDFLAGS = "-ObjC";

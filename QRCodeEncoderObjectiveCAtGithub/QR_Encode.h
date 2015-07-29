@@ -77,7 +77,6 @@ typedef const char* LPCSTR;
 
 #define ZeroMemory(Destination,Length) memset((Destination),0,(Length))
 
-
 class CQR_Encode
 {
 // ç\íz/è¡ñ≈
